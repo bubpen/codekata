@@ -12,8 +12,7 @@ for i in range(N):
         elif count == 1:
             result.append(10000 + min(l) * 1000)
         else:
-            if l.count(min(l)) == 2:
-                result.append(2000 + (max(l) + min(l)) * 500)
+            result.append(2000 + (max(l) + min(l)) * 500)
     elif len(s) == 3:
         for i in s:
             if l.count(i)==2:
