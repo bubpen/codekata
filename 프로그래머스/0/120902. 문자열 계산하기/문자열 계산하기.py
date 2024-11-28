@@ -1,0 +1,9 @@
+def solution(my_string):
+    s = my_string.split()
+    answer = int(s[0])
+    for i in range(len(s)):
+        if s[i] =='+':
+            answer += int(s[i+1])
+        elif s[i] =='-':
+            answer -= int(s[i+1])
+    return answer
