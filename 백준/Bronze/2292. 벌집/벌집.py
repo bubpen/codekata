@@ -1,8 +1,10 @@
-num = int(input())
-max_num = 1
-cnt = 1
-
-while num > max_num:
-    max_num += 6 * cnt
-    cnt += 1
+n = int(input())-1
+i = 1
+if n == 0:
+    cnt = 1
+else:
+    while n > i*6:
+        n -= i*6
+        i +=1
+    cnt = i+1
 print(cnt)
