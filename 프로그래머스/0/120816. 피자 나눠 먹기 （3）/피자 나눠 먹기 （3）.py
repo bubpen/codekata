@@ -3,5 +3,4 @@ def solution(slice, n):
     answer = 1
     while (slice * number - n) < 0:
             number += 1
-            answer = number
-    return answer
+    return number
