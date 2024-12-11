@@ -7,7 +7,5 @@ def solution(n):
             continue
         elif n - 7*number > 0:
             answer = number + 1
-        else:
-            answer = number
         number += 1
     return answer
