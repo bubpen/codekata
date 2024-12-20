@@ -3,13 +3,10 @@ def solution(myString):
     a = ''
     for i in range(len(myString)):
         if myString[i] == 'x':
-            if a == '':
-                pass
-            else:
-                answer.append(a)
-                a = ''
+            answer.append(a)
+            a = ''
         else:
-            if myString[i] == ' ':
+            if myString == ' ':
                 if i == len(myString) - 1:
                     if a != '':
                         answer.append(a)
