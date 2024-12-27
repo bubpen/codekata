@@ -8,5 +8,4 @@ def solution(strArr):
         if answer < length.count(i):
             answer = length.count(i)
         i += 1
-    
     return answer
