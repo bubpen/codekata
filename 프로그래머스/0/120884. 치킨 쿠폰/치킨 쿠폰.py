@@ -6,5 +6,4 @@ def solution(chicken):
         answer += coupon // 10
         service = coupon // 10
         coupon -= service * 9
-
     return answer
