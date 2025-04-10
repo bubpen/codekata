@@ -1,11 +1,15 @@
 n = int(input())
-meetings = [tuple(map(int, input().split())) for _ in range(n)]
+meetings = []
+for _ in range(n):
+    s, e = map(int, input().split())
+    meetings.append((s, e))
 meetings.sort(key = lambda x: (x[1], x[0]))
 
 count = 0
 finish = 0
+today = []
 for start, end in meetings:
     if start >= finish:
-        count += 1
+        today.append((start, end))
         finish = end
-print(count)
+print(len(today))
