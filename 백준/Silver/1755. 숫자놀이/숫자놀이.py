@@ -1,21 +1,21 @@
-start, end = map(int, input().split())
-array = [str(x) for x in range(start, end+1)]
-number_words = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+M, N = map(int, input().split())
+
+num_to_eng = {
+    0: 'zero', 1: 'one', 2: 'two', 3: 'three', 4: 'four',
+    5: 'five', 6: 'six', 7: 'seven', 8: 'eight', 9: 'nine'
+}
+
+# 숫자와 해당 영어 표현을 튜플로 저장
 numbers = []
-for i in array:
-    number = []
-    for j in i:
-        number.append(number_words[int(j)])
-    numbers.append(' '.join(number))
+for i in range(M, N + 1):
+    eng = ' '.join([num_to_eng[int(d)] for d in str(i)])
+    numbers.append((eng, i))
+
+# 영어 표현을 기준으로 정렬
 numbers.sort()
-result = []
-for i in numbers:
-    num = ''
-    for j in i.split():
-        num += str(number_words.index(j))
-    result.append(num)
-for i in range(len(result)):
-    if i % 10 == 9:
-        print(result[i])
-    else:
-        print(result[i], end=' ')
+
+# 정렬된 숫자를 출력 (한 줄에 10개씩)
+for idx, (_, num) in enumerate(numbers):
+    print(num, end=' ')
+    if (idx + 1) % 10 == 0:
+        print()
