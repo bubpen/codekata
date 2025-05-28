@@ -9,12 +9,12 @@ for i in range(1, n+1):
     graph[i].sort()
 visited = [False] * (n + 1)
 stack = [v]
-dts_result = []
+dfs_result = []
 while stack:
     node = stack.pop()
     if not visited[node]:
         visited[node] = True
-        dts_result.append(node)
+        dfs_result.append(node)
         for neighbor in reversed(graph[node]):
             if not visited[neighbor]:
                 stack.append(neighbor)
@@ -29,5 +29,5 @@ while queue:
         if not visited[neighbor]:
             visited[neighbor] = True
             queue.append(neighbor)
-print(' '.join(map(str, dts_result)))
+print(' '.join(map(str, dfs_result)))
 print(' '.join(map(str, bfs_result)))
