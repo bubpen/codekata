@@ -1,10 +1,10 @@
 # [level 0] 배열 자르기 - 120833 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120833) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120833?language=java) 
 
 ### 성능 요약
 
-메모리: 10.1 MB, 시간: 0.01 ms
+메모리: 71.4 MB, 시간: 0.03 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 15일 16:33:45
+2025년 11월 22일 21:46:52
 
 ### 문제 설명
 
