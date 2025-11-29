@@ -1,10 +1,10 @@
 # [level 0] 약수 구하기 - 120897 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120897) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120897?language=java) 
 
 ### 성능 요약
 
-메모리: 10 MB, 시간: 1.81 ms
+메모리: 73.8 MB, 시간: 0.26 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 20일 08:58:08
+2025년 11월 29일 15:25:54
 
 ### 문제 설명
 
