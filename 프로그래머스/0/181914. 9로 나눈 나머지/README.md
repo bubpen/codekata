@@ -1,10 +1,10 @@
 # [level 0] 9로 나눈 나머지 - 181914 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181914) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181914?language=java) 
 
 ### 성능 요약
 
-메모리: 10.6 MB, 시간: 56.31 ms
+메모리: 90.2 MB, 시간: 5.34 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 23일 08:52:01
+2026년 01월 19일 17:34:39
 
 ### 문제 설명
 
