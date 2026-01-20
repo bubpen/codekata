@@ -1,10 +1,10 @@
 # [level 0] 접미사인지 확인하기 - 181908 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181908) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181908?language=java) 
 
 ### 성능 요약
 
-메모리: 9.95 MB, 시간: 0.00 ms
+메모리: 89.1 MB, 시간: 0.06 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 16일 22:28:47
+2026년 01월 20일 17:06:37
 
 ### 문제 설명
 
