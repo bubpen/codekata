@@ -1,10 +1,10 @@
 # [level 0] 문자 개수 세기 - 181902 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181902) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181902?language=java) 
 
 ### 성능 요약
 
-메모리: 10.2 MB, 시간: 0.42 ms
+메모리: 72.1 MB, 시간: 0.11 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 23일 11:06:24
+2026년 01월 21일 12:44:30
 
 ### 문제 설명
 
